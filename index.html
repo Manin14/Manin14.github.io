@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> DROG web</title>
+
+	<style>
+		body {
+			background-color: salmon;
+			text-align: center;
+		}
+
+		.nama {
+			font-family: arial;
+			font-size: 80px;
+			color: rgb(112, 112, 218);
+			margin-bottom: 10px;
+			margin-top: 50px;
+		}
+
+		.nama span {
+			display: inline-block;
+			transition: .3s;
+			cursor: pointer;
+		}
+
+		.nama span:hover{
+            transform: scale(2) translateY(-20px);
+		}
+
+
+
+        /* acak warna */
+        .biru-muda { background-color: lightblue; }
+
+	.kotak { 
+		width: 25px;
+		height: 25px;
+		margin: 10px auto;
+		 }
+	.merah {
+		background-color: red;
+	}	
+	.hijau { background-color: green; } 
+	.biru { background-color: blue; }
+
+	.dog {
+		font-size: 100%;
+		color: black;
+		margin-top: auto;
+	}
+
+.buttonAcak {
+	position: relative;
+	}
+
+	.btn{
+     margin-top: 10px;
+	}
+
+	img .atas {
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	 a {
+		 text-decoration-color : grey;
+	 }
+
+	 .gallery {
+		 text-decoration-style: solid;
+	 }
+
+	 .atas {
+		 margin-top: 20px;
+	 }
+	</style>
+	<style src="style.css"></style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+	<!-- logo drog -->
+    <section id="portofolio" class="portofolio bg-light pb-4 center">
+			<div class="container center">
+			  <div class="row mb-4 text-center">
+				<div class="col-md ">
+					<img src="img/drog.jpg" width="70%" class="rounded-circle img-thumbnail atas">			 
+				</div>
+		
+				<div class="col-md">
+						<h1 class="nama "> Drog  </h1>
+						<p class="dog " id="dog"> ( Driver Online Gandoang ) </p> 
+				</div>
+		
+				<div class="col-md ">
+						<img src="img/drog.jpg" width="70%" class="rounded-circle img-thumbnail atas">		
+				</div>
+				</div>
+			</div>
+		
+			 
+		
+			</div>
+	</section>
+	<!-- akhir logo drog -->
+
+	 <!-- button rubah background -->
+	<div class="container text-center">
+			<div class="col-12 center-block">
+					<button type="button" class=" btn btn-primary center-block" id="tUbahWarna"> Ganti background</button>
+			</div>			
+   </div>
+   <!-- akhir button rubah background color -->
+
+    <!-- button gallery -->
+	<div class="container text-center">
+			<div class="col-12 center-block">
+					
+					<a href="gallery/index.html" class="gallery"> GALLERY</a>
+			</div>			
+   </div>
+   <!-- akhir button gallery -->
+
+<hr>
+
+
+
+   
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="spreadOperator.js"></script>
+</body>
+</html>
